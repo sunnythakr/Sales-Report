@@ -1,0 +1,2 @@
+This project will generat the sales report with CSV 
+data file visualize in matplotlib and seaborn Library 
