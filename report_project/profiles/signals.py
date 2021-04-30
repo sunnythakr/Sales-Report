@@ -9,4 +9,4 @@ def post_save_create_profile(sender, instance, created, **kwargs):
     print(instance)
     print(created)
     if created:
-        Profile.objects.create(user=instance)
+        Profile.objects.create(user=instance) 
