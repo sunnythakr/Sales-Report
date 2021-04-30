@@ -3,5 +3,9 @@ This file contain all the step to develop this project to make this to understan
 step - create application Customers, products, profiles,report, sales
 
 step - create model of customers application and admin.py
-step - create model of products oad admin.py and created file signals.py and modified app.py
-step - create model of  
+
+step - create model of products applocaton and admin.py and created file signals.py and modified app.py
+
+step - create model of  sales application and admn.py
+
+step - inside sales application created utlis.py 
