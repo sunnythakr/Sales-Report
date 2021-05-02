@@ -9,3 +9,5 @@ step - create model of products applocaton and admin.py and created file signals
 step - create model of  sales application and admn.py
 
 step - inside sales application created utils.py , signals.py and apps.py updates and also __init__.py update
+
+step - reports application models.py and admin.py added
