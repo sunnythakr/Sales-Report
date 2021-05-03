@@ -11,3 +11,5 @@ step - create model of  sales application and admn.py
 step - inside sales application created utils.py , signals.py and apps.py updates and also __init__.py update
 
 step - reports application models.py and admin.py added
+
+step - sale application views.py and urls.py and  sales/templates/main.html  file updates
