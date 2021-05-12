@@ -21,3 +21,5 @@ step - reports applications  forms.py file created
 step - reports forms added in sales applications sales/views.py 
 
 step - forms added in sales/home.html 
+
+step - 
