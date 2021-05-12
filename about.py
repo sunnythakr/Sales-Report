@@ -22,4 +22,4 @@ step - reports forms added in sales applications sales/views.py
 
 step - forms added in sales/home.html 
 
-step - 
+step - to involve
