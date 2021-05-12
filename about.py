@@ -13,3 +13,5 @@ step - inside sales application created utils.py , signals.py and apps.py update
 step - reports application models.py and admin.py added
 
 step - sale application views.py and urls.py and  sales/templates/main.html, home.html, detail.html  file updates
+
+step - popup added in sales/home.html
