@@ -25,3 +25,5 @@ step - forms added in sales/home.html
 step - sales/forms.py changes 
 
 step - sales/utils.py 
+
+step - sales/home.html alert added , sales/views.py
