@@ -36,7 +36,13 @@ home
       </div>
     </div>
   </div>
+{% if no_data %}
 
+    <div class="alert alert-warning" role="alert">
+     {{no_data}}
+    </div>
+
+{% endif %}
 
 <form action="" method="POST">
     {% csrf_token %}
@@ -62,7 +68,7 @@ home
     <img src="data:image/png;base64, {{chart|safe}}" id="img">
     <!-- <button class="btn btn-succes s">report</button> -->
 {% else %}
-    <h3>no date main</h3>
+    <h3></h3>
 {% endif %}
 <br>
 <button class="btn btn-primary not-visible" id="report-btn" data-bs-toggle="modal" data-bs-target="#reportModal">add report </button>
