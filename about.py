@@ -27,3 +27,11 @@ step - sales/forms.py changes
 step - sales/utils.py 
 
 step - sales/home.html alert added , sales/views.py
+
+step - sales/home.js add model to the chart 
+
+step - sales/home.js
+
+step - reports/views.py 
+
+
