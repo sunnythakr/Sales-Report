@@ -6,6 +6,15 @@ const reportBtn = document.getElementById('report-btn')
 const img = document.getElementById('img')
 const modalBody = document.getElementById('modal-body')
 const reportForm = document.getElementById('report-form')
+const alertBox = document.getElementById('alert-box')
+
+const handleAlerts = (type, msg) =>{
+    alertBox.innerHTML = `
+    <div class="alert alert-${type}" role="alert">
+        ${msg}
+</div>
+    `
+}
 
 
 const reportName = document.getElementById('id_name')
@@ -44,11 +53,12 @@ reportBtn.addEventListener('click', ()=>{
             data: formData,
             success: function(response){
                 console.log(response)
+                handleAlerts('success', 'report created')
                 // reportForm.reset()
             },
             error: function(error){
                 console.log(error)
-                // handleAlerts('danger', 'ups... something went wrong')
+                handleAlerts('danger', 'ups... something went wrong')
             },
             processData: false,
             contentType: false,
