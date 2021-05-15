@@ -134,6 +134,7 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static',
     BASE_DIR / 'sales' / 'static',
     BASE_DIR / 'reports' / 'static',
+    #  os.path.join(BASE_DIR, 'static'),
 ]
 
 
