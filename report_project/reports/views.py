@@ -4,9 +4,7 @@ from profiles.models import Profile
 from django.http import JsonResponse
 from .utlis import get_report_image
 from . models import Report
-from django.views.generic import ListView, DeleteView
-
-
+from django.views.generic import ListView, DeleteView, TemplateView
 
 # Create your views here.
 
@@ -18,6 +16,14 @@ class ReportListView(ListView):
 class ReportDetailView(DeleteView):
     model = Report
     template_name = 'reports/detail.html'
+
+
+class UploadTemplateView(TemplateView):
+    template_name = 'reports/from_file.html'
+
+
+def csv_upload_view(request):
+    return HttpResponse()
 
 def create_report_view(request):
     if request.is_ajax():
