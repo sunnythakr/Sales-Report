@@ -1,9 +1,23 @@
+from django.db import models
 from django.shortcuts import render
 from profiles.models import Profile
 from django.http import JsonResponse
 from .utlis import get_report_image
 from . models import Report
+from django.views.generic import ListView, DeleteView
+
+
+
 # Create your views here.
+
+class ReportListView(ListView):
+    model = Report
+    template_name = 'reports/main.html'
+
+
+class ReportDetailView(DeleteView):
+    model = Report
+    template_name = 'reports/detail.html'
 
 def create_report_view(request):
     if request.is_ajax():

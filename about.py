@@ -34,4 +34,6 @@ step - sales/home.js
 
 step - reports/views.py 
 
+step - sales/home.js
+
 
