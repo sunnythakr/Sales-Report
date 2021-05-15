@@ -1,9 +1,10 @@
 from django.db import models
+from profiles.models import Profile
+from django.urls import reverse
 
 # Create your models here.
 
-from profiles.models import Profile
-from django.urls import reverse
+
 
 class Report(models.Model):
     name = models.CharField(max_length=120)
